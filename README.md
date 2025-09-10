@@ -52,6 +52,12 @@ DIAG2_PIN  → D5    (DIAG1 from TMC2209, interrupt capable)
 - **D13** - Free for additional sensors/LEDs
 - **A1, A2, A3** - Free for analog inputs
 
+### Circuit Diagram
+
+![Circuit Diagram](circuit_image.png)
+
+**Interactive Circuit**: [View and edit on Cirkit Designer](https://app.cirkitdesigner.com/project/2bf852c7-9e8d-40d1-a5bd-bcb2e40b7dd5)
+
 ## Installation
 
 ### 1. Required Libraries
@@ -200,9 +206,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Author**: Kletternaut
 - **Issues**: Create GitHub issue for bugs/features
 - **Discussions**: Use GitHub Discussions for questions
-
----
-
-**Star this repo if it helped your project!**
-
-Made with care for the Arduino and stepper motor community
