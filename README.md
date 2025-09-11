@@ -64,7 +64,6 @@ DIAG2_PIN  → D5    (DIAG1 from TMC2209, interrupt capable)
 Install these libraries through Arduino IDE Library Manager:
 ```
 - TMCStepper by teemuatlut
-- AccelStepper by Mike McCauley  
 - SoftwareSerial (included with Arduino IDE)
 ```
 
