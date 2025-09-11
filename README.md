@@ -71,7 +71,7 @@ Install these libraries through Arduino IDE Library Manager:
 1. Connect TMC2209 drivers according to pin configuration above
 2. Ensure proper power supply connections
 3. Connect DIAG pins for stallguard functionality
-4. Set TMC2209 drivers to UART mode (MS1/MS2 pins)
+4. Set TMC2209 drivers to UART mode (not connecting MS1/MS2 pins)
 
 ### 3. Upload Code
 1. Download `TMC2209_Dual_UART_Controller.ino`
@@ -107,7 +107,7 @@ d          // Show diagnostics
 ## Technical Innovation
 
 ### UART Switching Mechanism
-The breakthrough of this project is the **UART switching system** that allows:
+The breakthrough of this project is the usage of SoftwareSerial with 115200 Baud (tested) and **UART switching system** that allows:
 - Separate communication channels for each TMC2209
 - No address conflicts or shared communication issues
 - Full register access for both drivers
