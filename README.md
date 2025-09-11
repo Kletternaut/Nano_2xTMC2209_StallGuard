@@ -33,8 +33,8 @@ This project enables **dual TMC2209 stepper driver control on Arduino Nano** - s
 EN_PIN     → D2    (Enable)
 DIR_PIN    → D3    (Direction)  
 STEP_PIN   → D4    (Step)
-SW_RX      → D7    (SoftwareSerial RX → TMC2209 TX)
-SW_TX      → D6    (SoftwareSerial TX → TMC2209 RX)
+SW_TX      → D6    (SoftwareSerial TX → 1KΩ → TMC2209 RX - 1wireUART)
+SW_RX      → D7    (SoftwareSerial RX → TMC2209 RX (!!)  - 1wireUART)
 DIAG_PIN   → D8    (DIAG1 from TMC2209, interrupt capable)
 ```
 
@@ -43,8 +43,8 @@ DIAG_PIN   → D8    (DIAG1 from TMC2209, interrupt capable)
 EN2_PIN    → A0    (Enable)
 DIR2_PIN   → D12   (Direction)
 STEP2_PIN  → D11   (Step)  
-SW2_RX     → D9    (SoftwareSerial RX → TMC2209 TX)
-SW2_TX     → D10   (SoftwareSerial TX → TMC2209 RX)
+SW2_TX     → D10   (SoftwareSerial TX → 1KΩ → TMC2209 RX - 1wireUART)
+SW2_RX     → D9    (SoftwareSerial RX → TMC2209 RX (!!)  - 1wireUART)
 DIAG2_PIN  → D5    (DIAG1 from TMC2209, interrupt capable)
 ```
 
