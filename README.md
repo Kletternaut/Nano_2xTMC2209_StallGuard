@@ -6,11 +6,11 @@
 
 ## Overview
 
-This project enables **dual TMC2209 stepper driver control on Arduino Nano/Uno** - something typically requiring an Arduino Mega! It uses an innovative SoftwareSerial UART switching mechanism to provide separate communication channels for each driver while maintaining full functionality.
+This project enables **dual TMC2209 stepper driver control on Arduino Nano** - something typically requiring an Arduino Mega! It uses an SoftwareSerial UART switching mechanism to provide separate communication channels for each driver while maintaining full functionality.
 
 ## Key Features
 
-- **Dual TMC2209 control on Arduino Nano/Uno**
+- **Dual TMC2209 control on Arduino Nano**
 - **UART switching system** for reliable separate communication
 - **Stallguard-based sensorless homing** for both motors
 - **Real-time motor diagnostics** and control
